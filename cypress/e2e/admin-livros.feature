@@ -11,8 +11,8 @@ Cenário: Adicionar um novo livro
     Quando eu adiciono um novo livro com os dados obrigatórios
     Então deve aparecer uma mensagem: "Livro adicionado com sucesso!"
 
-
-Cenário: Remover um livro inexistente
+//cenário negativo:
+Cenário: Remover um livro inexistente 
     Dado que estou na página de administração de livros
     Quando eu pesquiso por um livro que não existe e tento removê-lo
     Então deve aparecer um aviso: " Nenhum livro encontrado com os filtros aplicados."    
